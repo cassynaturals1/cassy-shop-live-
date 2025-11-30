@@ -188,10 +188,10 @@
       // Fallback: If the Admin hasn't saved any data yet, use a static default set.
       if (!products) {
         return [
-          {id:'oil', title:'Hair Growth Oil', price:7000, img:'images/hair_growth_oil.jpg'},
-          {id:'herbs', title:'Mixed Herbs', price:5000, img:'images/mixed_herbs.jpg'},
-          {id:'butter', title:'Hair Butter', price:4000, img:'images/hair_butter.jpg'},
-          {id:'conditioner', title:'Leave In Conditioner', price:3000, img:'images/leave_in_conditioner.jpg'}
+          {id:'oil', title:'Hair Growth Oil', price:7000, img:'hair_growth_oil.jpg'},
+          {id:'herbs', title:'Mixed Herbs', price:5000, img:'mixed_herbs.jpg'},
+          {id:'butter', title:'Hair Butter', price:4000, img:'hair_butter.jpg'},
+          {id:'conditioner', title:'Leave In Conditioner', price:3000, img:'leave_in_conditioner.jpg'}
         ];
       }
       return JSON.parse(products);
